@@ -1,0 +1,26 @@
+ul,
+ol {
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: calc(360px * 3 + 24px * 2);
+  margin: 0 auto;
+}
+
+.gallery-image {
+  scale: 1;
+  transition: scale 125ms;
+}
+
+.gallery-image:hover {
+  scale: 1.05;
+}
+
+.image-description {
+  color: white;
+  text-align: center;
+}
